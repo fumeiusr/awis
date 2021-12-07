@@ -1,0 +1,92 @@
+/*dont look at my bad code thanks*/
+
+@font-face {
+  font-family: 'Inter';
+  src: url(https://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+  body {
+    background-image: url("https://i.imgur.com/eJWiERZ.png");
+    background-color: purple;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-size: cover;
+  }
+  
+  h3 {
+    font-family: Inter;
+    color: white;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  
+  p {
+    font-family: Inter;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 1.5;
+  }
+
+  a {
+    font-family: Inter;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .button {
+    margin-block: 10px;
+    width: 100px;
+    padding: 0.5rem 1rem;
+    font-family: Inter;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: 1s;
+    background-size: 200% auto;
+    color: white;        
+    text-decoration: none;
+  }
+
+  .button1 {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+  .button1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+  .button2 {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
+  .button2:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+  }
+
+  .button3 {background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%)}
+  .button3:hover {
+     background-position: right center;
+     color: #fff;
+     text-decoration: none;
+  }
+
+  .button4 {background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%)}
+  .button4:hover {
+     background-position: right center;
+     color: #fff;
+     text-decoration: none;
+  }
+
+  #wife { 
+    position: absolute;
+    bottom: 5%;
+  }
+  /*i said dont look :c*/
